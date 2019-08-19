@@ -1,0 +1,102 @@
+@import url(static/css_family_Ubuntu_300);
+body{
+    background: url(static/handmadepaper.png);
+    font-family: 'Ubuntu';
+
+}
+::-moz-selection { background: greenyellow; }
+::selection { background: greenyellow; }
+
+.navbar-brand{
+    margin-right: .8rem;
+}
+footer div.container {
+    text-align: right;
+}
+img.logo {
+    width: 30%;
+}
+.jumbotron .form-control {
+    margin-bottom: .9em;
+}
+.credentials-icon {
+    margin-bottom: 10%;
+    text-align: center;
+}
+.settings-icon {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.page-header {
+    text-align: center;
+}
+.server-info .form-control {
+    margin-bottom: .9em;
+}
+.containerDesign{
+    background: #ffffff7d;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 1px #757575;
+}
+
+.well {
+    margin-top: 2%;
+}
+#linkGen {
+    overflow: scroll;
+    height: 100px;
+    word-wrap: break-word;
+}
+.simulator-link{
+  float: right;
+  margin: 7px;
+}
+
+.simulator-link > a{
+  color: #aeefc8;
+}
+/* wdc */
+
+.card-header > h6 {
+    display: inline;
+}
+.card .card-header:before{
+    /* symbol for "opening" panels */
+    content: "▼";    /* adjust as needed, taken from bootstrap.css */
+}
+.card .card-header.collapsed:before{
+    /* symbol for "collapsed" panels */
+    content: "▶";    /* adjust as needed, taken from bootstrap.css */
+}
+.searchSection {
+    border: 1px #6c757d dotted;
+    padding: 10px;
+    margin: 10px;
+}
+
+.alert-input-information{
+    max-width: 80%; /* 300px; */
+}
+.alert-input-information > pre {
+    word-wrap: break-word;
+}
+.containerDesign{
+    background: #ffffff52;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer-copyright{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-shadow: 1px 1px 11px black;
+    box-shadow: inset -8px 3px 20px 2px #00000036;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
